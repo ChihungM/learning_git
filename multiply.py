@@ -1,7 +1,8 @@
+import numpy
+def multiply_nums(list_of_nums):
+    print(numpy.prod(list_of_nums))
+
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 
-result1 = numpy.prod(list1)
-result2 = numpy.prod(list2)
-print(result1)
-print(result2)
+multiply_nums(list1)
